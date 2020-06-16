@@ -1,0 +1,38 @@
+﻿  Validating sources
+  Copying sources remotely to '222.201.187.181'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Piece.cpp
+F:\Workspace\CPP\game01\game01\Piece.cpp(36,99): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(36,99): warning :      mvwaddch(hint_win, (hint_win_height - size_h) / 2 + i, (hint_win_width - size_w) / 2 + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(36,99): warning :                                                                                                    ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(174,53): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(174,53): warning :       mvwaddch(game_win, head_y + i, head_x + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(174,53): warning :                                                      ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(207,54): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(207,54): warning :        mvwaddch(game_win, head_y + i, head_x + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(207,54): warning :                                                       ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(228,55): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(228,55): warning :         mvwaddch(game_win, head_y + i, head_x + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(228,55): warning :                                                        ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(245,55): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(245,55): warning :         mvwaddch(game_win, head_y + i, head_x + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(245,55): warning :                                                        ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(270,55): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(270,55): warning :         mvwaddch(game_win, head_y + i, head_x + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(270,55): warning :                                                        ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(340,35): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(340,35): warning :       mvwaddch(game_win, i, j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(340,35): warning :                                    ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(380,99): warning : multi-character character constant [-Wmultichar]
+F:\Workspace\CPP\game01\game01\Piece.cpp(380,99): warning :      mvwaddch(hint_win, (hint_win_height - size_h) / 2 + i, (hint_win_width - size_w) / 2 + j, '��');
+F:\Workspace\CPP\game01\game01\Piece.cpp(380,99): warning :                                                                                                    ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(48,6): warning : unused variable ‘i’ [-Wunused-variable]
+F:\Workspace\CPP\game01\game01\Piece.cpp(48,6): warning :   int i, j;
+F:\Workspace\CPP\game01\game01\Piece.cpp(48,6): warning :       ^
+F:\Workspace\CPP\game01\game01\Piece.cpp(48,9): warning : unused variable ‘j’ [-Wunused-variable]
+F:\Workspace\CPP\game01\game01\Piece.cpp(48,9): warning :   int i, j;
+F:\Workspace\CPP\game01\game01\Piece.cpp(48,9): warning :          ^
+  Linking objects
+  game01.vcxproj -> F:\Workspace\CPP\game01\game01\bin\x64\Debug\game01.out

@@ -1,0 +1,1 @@
+g++ -o "/home/kalen/projects/game01/bin/x64/Debug/game01.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/kalen/projects/game01/obj/x64/Debug/main.o /home/kalen/projects/game01/obj/x64/Debug/Piece.o /usr/lib/x86_64-linux-gnu/libncurses.so
